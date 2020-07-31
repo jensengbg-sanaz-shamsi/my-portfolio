@@ -1,0 +1,239 @@
+*::before,
+*::after {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+    line-height: 1.6;
+    font-weight: 400;
+    font-size: 1.6rem;
+    background-color: #252627;
+    color: white;
+    padding: 20px; 
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.heading-1 {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 4rem;
+    padding: 0 100px 0 100px;
+}
+
+.heading-2{
+    font-family:  sans-serif;
+    font-weight: 300;
+    padding: 0 100px 0 100px; 
+    letter-spacing: 6px;
+    word-spacing: 10px;
+    font-size: 1.2rem;
+}
+
+.text {
+    border-right: 0.1px solid white;
+}
+
+.picMyself {
+    width: 250px;
+    padding: 0 100px 0 100px;
+}
+
+a {
+    font-family:  sans-serif;
+    font-weight: 300;
+    padding: 0 100px 0 100px; 
+    letter-spacing: 6px;
+    word-spacing: 10px;
+    font-size: 1.2rem;
+    text-decoration: none; 
+    color: rgb(100, 99, 99);
+}
+
+a:hover {
+    color: tomato;
+    font-weight: bolder;
+}
+
+.modalBtn {
+    width: 10rem;
+    height: 10rem;
+    border: 1px solid #ED5565;
+    transition: all 0.5s ease;
+    color: black ;
+    background-color: #ED5565;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    margin-bottom: 12px;
+}
+
+.modalBtn:hover {
+    transform: rotate(-10deg) scale(1.2);
+    background-color:rgba(0,0,0,0.5);
+    border: 1px solid rgba(0,0,0,0.5);
+    color: #ED5565;
+}
+
+.img {
+    width: 10rem;
+    height: 10rem;
+    margin-bottom: 5px;
+}
+
+.container {
+    margin: 50px 0 50px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/***close button**/
+.closeBtn {
+    float: right;
+    background: transparent;
+    border: none;
+    color: rgb(233, 36, 36);
+    cursor: pointer;
+    font-size: 2.3rem;
+    padding: 3px;
+    transition: all 0.4s;
+}
+.closeBtn:hover {
+    transform: rotate(180deg);
+    color:white;
+} 
+
+/***close button end***/
+
+.simpleModal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.modal-content {
+    background: rgb(14, 13, 13);
+    color:black;
+    text-align: center;
+    margin: 10% auto;
+    padding: 20px;
+    width: 70%;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 7px 20px rgba(0,0,0,0.17);
+}
+
+
+.modal-header {
+    background-color: #252627;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 3rem;
+    text-transform: uppercase; 
+    color: #ED5565;
+}
+
+.modal-body {
+    color: white;
+}
+
+.work-title {
+    font-size: 1.2em;
+    color: rgb(194, 130, 130);
+}
+
+
+h3 {
+    font-family:  sans-serif;
+    font-weight: 300;
+    letter-spacing: 3px;
+    word-spacing: 10px;
+    font-size: 1rem;
+}
+
+.box {
+    border: 1px solid rgb(133, 131, 131);
+    width: 10rem;
+    height: 10rem;
+    background-color: rgb(70, 70, 70);
+}
+
+/*contact page*/
+.email, .tel {
+    font-family:  sans-serif;
+    color: rgb(201, 199, 201);
+    font-weight: 300;
+    letter-spacing: 3px;
+    word-spacing: 10px;
+}
+.info {
+    color: rgb(110, 110, 110);
+    font-weight: bolder;
+    letter-spacing: 3px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* GENERAL STUFF */
+.page {
+    display: flex;
+    align-items: center;
+    width: 800px;
+    height: 300px;
+    background-color: rgb(14, 13, 13);
+    margin: 0 auto;
+}
+
+  /* PROGRESSBAR */
+.skills {
+    width: 100%;
+    padding: 15px;
+}
+
+.skill {
+    display: flex;
+    margin-bottom: 15px;
+    background-color: #f8f8f8;
+}
+
+.skill__name {
+    width: 150px;
+    padding: 5px;
+    background-color: #4b4b4b;;
+    color: #ED5565;
+    text-align: center;
+}
+
+.skill__progress {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    width: 100%;
+    padding: 5px;
+    text-align: right;
+}
+
+.skill__percentage {
+    position: absolute;
+    top: 0;
+    right: -100%;
+    height: 100%;
+    background-color: #ED5565;
+    transition: right 0.25s ease-in-out;
+}
+
+.skill__progress:hover .skill__percentage {
+    left: 0;
+}
+
+
