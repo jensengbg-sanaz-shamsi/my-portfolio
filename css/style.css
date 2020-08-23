@@ -128,8 +128,8 @@ a:hover {
     background: rgb(14, 13, 13);
     color:black;
     text-align: center;
-    margin: 10% auto;
-    padding: 20px;
+    margin: 5% auto;
+    padding: 10px;
     width: 70%;
     box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 7px 20px rgba(0,0,0,0.17);
 }
@@ -139,7 +139,7 @@ a:hover {
     background-color: #252627;
     text-align: center;
     padding: 10px 0;
-    font-size: 3rem;
+    font-size: 2rem;
     text-transform: uppercase; 
     color: #ED5565;
 }
@@ -234,6 +234,75 @@ h3 {
 
 .skill__progress:hover .skill__percentage {
     left: 0;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        line-height: 1.6;
+        font-size: 1rem;
+    }
+
+    header {
+        display: flex;
+        flex-direction: column;
+    }
+    .picMyself {
+        display: none;
+    }
+    .container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 5px;
+    }
+    .img , .box {
+        display: none;
+    }
+    .heading-1 {
+        font-family: sans-serif;
+        font-weight: bold;
+        font-size: 2rem;
+        padding: 0 50px 0 50px;
+    }
+    .heading-2{
+        font-family:  sans-serif;
+        font-weight: 300;
+        padding: 0 50px 0 50px; 
+        letter-spacing: 3px;
+        word-spacing: 3px;
+        font-size: .6rem;
+    }
+    .modalBtn {
+        width: 8rem;
+        height: 8rem;
+        border: 1px solid #ED5565;
+        transition: all 0.5s ease;
+        color: black ;
+        background-color: #ED5565;
+        font-size: 1rem;
+        font-weight: bold;
+        margin-bottom: 12px;
+    }
+    .modal-content {
+        margin: 10% auto;
+        width: 70%;
+    }
+    
+    .modal-header {
+        font-size: 1.5rem;
+        padding: 5px 0;
+    }
+    a {
+        color: #ED5565;
+        letter-spacing: 3px;
+        word-spacing: 5px;
+        font-size: 0.8rem;
+    }
+    .skills {
+        width: 30%;
+    }
+    .email, .tel {
+        letter-spacing: 0px;
+    }
 }
 
 
