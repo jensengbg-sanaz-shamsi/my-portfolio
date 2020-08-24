@@ -29,7 +29,7 @@ header {
 }
 
 .heading-2{
-    font-family:  sans-serif;
+    font-family: sans-serif;
     font-weight: 300;
     padding: 0 100px 0 100px; 
     letter-spacing: 6px;
@@ -258,14 +258,10 @@ h3 {
         display: none;
     }
     .heading-1 {
-        font-family: sans-serif;
-        font-weight: bold;
         font-size: 2rem;
         padding: 0 50px 0 50px;
     }
     .heading-2{
-        font-family:  sans-serif;
-        font-weight: 300;
         padding: 0 50px 0 50px; 
         letter-spacing: 3px;
         word-spacing: 3px;
