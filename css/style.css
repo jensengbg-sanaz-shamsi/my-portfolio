@@ -7,9 +7,9 @@ box-sizing: border-box;
 
 body {
     font-family: "Lato", sans-serif;
-    line-height: 1.6;
+    line-height: 1.8;
     font-weight: 400;
-    font-size: 1.6rem;
+    font-size: 1.2rem;
     background-color: #252627;
     color: white;
     padding: 20px; 
@@ -130,7 +130,7 @@ a:hover {
     text-align: center;
     margin: 3% auto;
     padding: 10px;
-    width: 70%;
+    width: 60%;
     box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 7px 20px rgba(0,0,0,0.17);
 }
 
@@ -149,7 +149,7 @@ a:hover {
 }
 
 .work-title {
-    font-size: 1.2em;
+    font-size: 1em;
     color: rgb(194, 130, 130);
 }
 
