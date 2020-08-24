@@ -153,6 +153,13 @@ a:hover {
     color: rgb(194, 130, 130);
 }
 
+h2 {
+    font-family:  sans-serif;
+    font-weight: bold;
+    letter-spacing: 3px;
+    word-spacing: 10px;
+    font-size: 1.5rem;
+}
 
 h3 {
     font-family:  sans-serif;
