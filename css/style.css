@@ -203,12 +203,13 @@ h3 {
 
   /* PROGRESSBAR */
 .skills {
-    width: 100%;
+    width: 80%;
     padding: 15px;
 }
 
 .skill {
     display: flex;
+    height: 3.5rem;
     margin-bottom: 15px;
     background-color: #f8f8f8;
 }
@@ -230,19 +231,37 @@ h3 {
     text-align: right;
 }
 
+@keyframes skillprogress {
+    0% { width: 0%; }
+    100% { width: 90%; }
+}
+
 .skill__percentage {
-    position: absolute;
-    top: 0;
-    right: -100%;
-    height: 100%;
+    display: block;
+    height: 3rem;
     background-color: #ED5565;
-    transition: right 0.25s ease-in-out;
+    animation: skillprogress 3s ease forwards;
 }
 
-.skill__progress:hover .skill__percentage {
-    left: 0;
+.skill__progress2 {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    width: 100%;
+    padding: 5px;
+    text-align: right;
+}
+@keyframes skillprogress2 {
+    0% { width: 0%; }
+    100% { width: 70%; }
 }
 
+.skill__percentage2 {
+    display: block;
+    height: 3rem;
+    background-color: #ED5565;
+    animation: skillprogress2 3s ease forwards;
+}
 @media only screen and (max-width: 600px) {
     body {
         line-height: 1.6;
