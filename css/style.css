@@ -150,7 +150,11 @@ a:hover {
 
 .work-title {
     font-size: 1em;
-    color: rgb(194, 130, 130);
+    color: rgb(201, 119, 119);
+}
+.border {
+    border-bottom: dashed 2px;
+    color: rgb(206, 171, 171);
 }
 
 h2 {
