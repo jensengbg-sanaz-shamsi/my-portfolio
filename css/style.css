@@ -213,8 +213,8 @@ h3 {
 
 .skill {
     display: flex;
-    height: 3.5rem;
-    margin-bottom: 15px;
+    height: 3rem;
+    margin: 15px;
     background-color: #f8f8f8;
 }
 
@@ -242,7 +242,7 @@ h3 {
 
 .skill__percentage {
     display: block;
-    height: 3rem;
+    height: 2.5rem;
     background-color: #e57373 ;
     animation: skillprogress 3s ease forwards;
 }
@@ -262,7 +262,7 @@ h3 {
 
 .skill__percentage2 {
     display: block;
-    height: 3rem;
+    height: 2.5rem;
     background-color: #e57373 ;
     animation: skillprogress2 3s ease forwards;
 }
