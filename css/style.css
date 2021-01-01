@@ -10,7 +10,7 @@ body {
     line-height: 1.8;
     font-weight: 400;
     font-size: 1.2rem;
-    background-color: #252627;
+    background-color: #ef9a9a;
     color: white;
     padding: 20px; 
 }
@@ -65,10 +65,10 @@ a:hover {
 .modalBtn {
     width: 10rem;
     height: 10rem;
-    border: 1px solid #ED5565;
+    border: 1px solid #fce4ec;
     transition: all 0.5s ease;
     color: black ;
-    background-color: #ED5565;
+    background-color: #fce4ec;
     font-size: 1.2rem;
     font-weight: bolder;
     margin-bottom: 12px;
@@ -78,7 +78,7 @@ a:hover {
     transform: rotate(-10deg) scale(1.2);
     background-color:rgba(0,0,0,0.5);
     border: 1px solid rgba(0,0,0,0.5);
-    color: #ED5565;
+    color: #fce4ec;
 }
 
 .img {
@@ -141,7 +141,7 @@ a:hover {
     padding: 10px 0;
     font-size: 2rem;
     text-transform: uppercase; 
-    color: #ED5565;
+    color: #fce4ec;
 }
 
 .modal-body {
@@ -222,7 +222,7 @@ h3 {
     width: 150px;
     padding: 5px;
     background-color: #4b4b4b;;
-    color: #ED5565;
+    color: #fce4ec;
     text-align: center;
 }
 
@@ -243,7 +243,7 @@ h3 {
 .skill__percentage {
     display: block;
     height: 3rem;
-    background-color: #ED5565;
+    background-color: #e57373 ;
     animation: skillprogress 3s ease forwards;
 }
 
@@ -263,7 +263,7 @@ h3 {
 .skill__percentage2 {
     display: block;
     height: 3rem;
-    background-color: #ED5565;
+    background-color: #e57373 ;
     animation: skillprogress2 3s ease forwards;
 }
 @media only screen and (max-width: 600px) {
@@ -300,10 +300,10 @@ h3 {
     .modalBtn {
         width: 8rem;
         height: 8rem;
-        border: 1px solid #ED5565;
+        border: 1px solid #fce4ec;
         transition: all 0.5s ease;
         color: black ;
-        background-color: #ED5565;
+        background-color: #fce4ec;
         font-size: 1rem;
         font-weight: bold;
         margin-bottom: 12px;
@@ -318,7 +318,7 @@ h3 {
         padding: 5px 0;
     }
     a {
-        color: #ED5565;
+        color: #fce4ec;
         letter-spacing: 3px;
         word-spacing: 5px;
         font-size: 0.8rem;
